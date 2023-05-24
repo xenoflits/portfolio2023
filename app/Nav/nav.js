@@ -1,3 +1,5 @@
+import styles from './nav.module.css'
+
 const Nav = () => {
     return (<div>
         Nav
