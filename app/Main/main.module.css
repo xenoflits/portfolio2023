@@ -1,0 +1,41 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    width: 100vw;
+}
+
+.mainleft {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    
+}
+
+.mainheaderred {
+    color: red;
+}
+
+.secondheaderred {
+    color: red;
+}
+
+.mainright {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    
+}
+
+.halfface {
+    width: 100%;
+    height: 100%;
+}
