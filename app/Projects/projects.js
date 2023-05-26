@@ -19,20 +19,20 @@ const Projects = () => {
 
 
     return (
-        <div>
-            <div>header</div>
-            <h1>Interesting projects for you to see</h1>
-            <div>
-                <div>buttonrail
-                    <div onClick={()=>toggleproject("min")}>button left</div>
-                    <div>counter: {projectNumber}</div>
-                    <div onClick={()=>toggleproject("plus")}>button right</div>
+        <div className={styles.project}>
+            <div className={styles.header}>header</div>
+            <h1 className={styles.headertext}>Interesting projects for you to see</h1>
+            <div className={styles.currentproject}>
+                <div className={styles.projectbuttonrail}>buttonrail
+                    <div className={styles.projectbutton} onClick={()=>toggleproject("min")}>button left</div>
+                    <div className={styles.projectcounter}>counter: {projectNumber}</div>
+                    <div className={styles.projectbutton}onClick={()=>toggleproject("plus")}>button right</div>
                 </div>
                 <div>
-                    <div>project title</div>
-                    <div>project description</div>
-                    <div>view project</div>
-                    <div> project image</div>
+                    <div className={styles.projecttitle}>project title</div>
+                    <div className={styles.projectdesc}>project description</div>
+                    <div className={styles.projectview}>view project</div>
+                    <div className={styles.projectimage}> project image</div>
                 </div>
             </div>
         </div>
